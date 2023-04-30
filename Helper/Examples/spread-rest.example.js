@@ -25,3 +25,7 @@ const obj2 = {
 }
 
 console.log(obj2)// { name: 'Vadym', lastname: 'Petryna', surname: 'Andriovych' }
+
+// rest for object:
+const { name, ...person } = { name: 'test', age: 22, addr: 'test' }
+

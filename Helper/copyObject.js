@@ -15,12 +15,12 @@ const obj2 = {...obj1}
 
 // Object.assign(), does not change the original array
 
-const obj2 = Object.assign({ color: "red" }, obj1)
+const obj3 = Object.assign({ color: "red" }, obj1)
 
 // Deep 
 // JSON (does not work with methods)
 
-const obj2 = JSON.parse(JSON.stringify(obj1))
+const obj4 = JSON.parse(JSON.stringify(obj1))
 
 // lodash clonedeep 
 

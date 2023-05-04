@@ -12,3 +12,5 @@
 "Hello".slice(1,3) // el
 "Hello".search("e") // 1
 "Hello".split("") // ['H', 'e', 'l', 'l', 'o']
+"Hello Hello".replace(/Hello/g, "~~") // ~~ ~~
+"Hello Hello LOL".replace(/[aeiou]/gi, "~~") // Hll Hll LL
